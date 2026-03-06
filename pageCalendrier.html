@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=5.0">
@@ -8,9 +7,8 @@
     </head>
     <body>
         <header>
-            <img src="image\logoCanadien.png" alt="Logo des canadiens de montreal"
-             class="Logo">
-            <p class="canadientitel"><b>Les canadiens de montreal</b></p>
+            <a href="pageAccueil.html" style="text-decoration: none; color: white ;"><img src="image\logoCanadien.png" alt="Logo des canadiens de montreal" class="Logo"></a>
+            <p class="canadientitel"> <a href="pageAccueil.html" style="text-decoration: none; color: white ;"><b>Les canadiens de montreal</b></a></p>
             <a href="pageAccueil.html" class="AccueilBox" style="text-decoration: none; color: white ;">Accueil</a>
             <a href="pageCalendrier.html" class="CalendrierBox"style="text-decoration: none; color: white ;">Calendrier</a>
             <a href="pageEquipe.html" class="EquipeBox"style="text-decoration: none; color: white ;">Équipe</a>
@@ -18,20 +16,897 @@
             <a href="pageHistoire.html" class="HistoireBox"style="text-decoration: none; color: white ;">Histoire</a>
             <a href="pageContact.html" class="ContactBox"style="text-decoration: none; color: white ;">Contact</a>
         </header>
-        
+
         <main>
 
+            <input type="radio" name="month-filter" id="all-months" checked hidden>
+            <input type="radio" name="month-filter" id="octobre" hidden>
+            <input type="radio" name="month-filter" id="novembre" hidden>
+            <input type="radio" name="month-filter" id="decembre" hidden>
+            <input type="radio" name="month-filter" id="janvier" hidden>
+            <input type="radio" name="month-filter" id="fevrier" hidden>
+            <input type="radio" name="month-filter" id="mars" hidden>
+            <input type="radio" name="month-filter" id="avril" hidden>
 
 
+            <div class="calendar-body">
 
+            <div class="header-color">
+<div class="header-schedule">
+  <div class="header-logo"><img src="image/Equipe/logoCanadien.png" style="width:150px;" alt=""></div>
+  <div class="header-logo"><img src="image/Equipe/nhl.png" style="width:150px; padding-left: 100px;" alt=""></div>
+  <div class="header-text">
+  <h1>Canadiens de Montréal</h1>
+  <p>Saison 2025-2026</p>
+  <div class="record">33V – 18D – 9P</div>
+  </div>
+</div>
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#34C759"></div> Victoire</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#FF3B30"></div> Défaite</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#FF9500"></div> Prolongation/TB</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#AF1E2D;"></div> Domicile</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#192168"></div> Extérieur</div>
+</div>
+</div>
 
-            
+            <div class="month-filters">
+              <label for="all-months">Tous</label>
+              <label for="octobre">Octobre</label>
+              <label for="novembre">Novembre</label>
+              <label for="decembre">Décembre</label>
+              <label for="janvier">Janvier</label>
+              <label for="fevrier">Février</label>
+              <label for="mars">Mars</label>
+              <label for="avril">Avril</label>
+            </div>
+
+<!---------------------------------------octobre--------------------------------------->
+<div class="month-section month-octobre">
+  <div class="month-title">Octobre 2025</div>
+  <hr>
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">8 oct</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/toronto.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Maple Leafs</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">9 oct</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">5</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/detroit.png" style="width:60px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Red Wings</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">11 oct</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/chicago.png" style="width:70px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Blackhawks</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">14 oct</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">5</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">4</span><div class="team-logo"><img src="image/Equipe/kraken.png" style="width:40px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Kraken</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">16 oct</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/nashville.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Predators</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">18 oct</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/rangers.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Rangers</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">20 oct</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/buffalo.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sabres</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">22 oct</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/calgary.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Flames</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">23 oct</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">5</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">6</span><div class="team-logo"><img src="image/Equipe/oilers.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Oilers</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">25 oct</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/vancouvert.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Canucks</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">28 oct</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/kraken.png" style="width:40px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Kraken</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+</div>
+
+<!---------------------------------------novembre--------------------------------------->
+<div class="month-section month-novembre">
+  <div class="month-title">Novembre 2025</div>
+<hr>
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">1 nov</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/ottawa.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Senators</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">4 nov</div><div class="result-badge result-p">D/TB</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/philadelphia.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Flyers</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">6 nov</div><div class="result-badge result-p">D/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/newjersey.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Devils</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">8 nov</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">6</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/mammoth.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Mammoth</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">11 nov</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">1</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/king.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Kings</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">13 nov</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">0</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">7</span><div class="team-logo"><img src="image/Equipe/dallas.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Stars</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">15 nov</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">3</span><div class="team-logo"><img src="image/Equipe/boston.png" style="width:70px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Bruins</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">17 nov</div><div class="result-badge result-p">D/TB</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/columbus.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Blue Jackets</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">20 nov</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">8</span><div class="team-logo"><img src="image/Equipe/washingnton.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Capitals</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">22 nov</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">5</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/toronto.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Maple Leafs</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">26 nov</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/mammoth.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Mammoth</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">28 nov</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/vegas.png" style="width:35px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Golden Knights</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">29 nov</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">7</span><div class="team-logo"><img src="image/Equipe/colorado.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Avalanche</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+</div>
+
+<!---------------------------------------decembre--------------------------------------->
+<div class="month-section month-decembre">
+  <div class="month-title">Décembre 2025</div>
+<hr>
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">2 déc</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/ottawa.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Senators</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">3 déc</div><div class="result-badge result-v">V/TB</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/jet.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Jets</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">6 déc</div><div class="result-badge result-v">V/TB</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/toronto.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Maple Leafs</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">7 déc</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/stlouis.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Blues</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">9 déc</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">1</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">6</span><div class="team-logo"><img src="image/Equipe/tampabay.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Lightning</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">11 déc</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/pittsburgh.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Penguins</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">13 déc</div><div class="result-badge result-p">D/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/rangers.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Rangers</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">14 déc</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/oilers.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Oilers</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">16 déc</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">1</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/philadelphia.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Flyers</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">18 déc</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/chicago.png" style="width:70px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Blackhawks</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">20 déc</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">0</span><div class="team-logo"><img src="image/Equipe/pittsburgh.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Penguins</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">21 déc</div><div class="result-badge result-p">D/TB</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/pittsburgh.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Penguins</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">23 déc</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">6</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/boston.png" style="width:70px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Bruins</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">28 déc</div><div class="result-badge result-p">D/TB</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/tampabay.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Lightning</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">30 déc</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/panthers.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Panthers</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+</div>
+
+<!---------------------------------------janvier--------------------------------------->
+<div class="month-section month-janvier">
+  <div class="month-title">Janvier 2026</div>
+<hr>
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">1 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">7</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">5</span><div class="team-logo"><img src="image/Equipe/carolina.png" style="width:60px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Hurricanes</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">3 jan</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">0</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">2</span><div class="team-logo"><img src="image/Equipe/stlouis.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Blues</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">4 jan</div><div class="result-badge result-v">V/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/dallas.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Stars</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">7 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/calgary.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Flames</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">8 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">6</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/panthers.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Panthers</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">10 jan</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">0</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/detroit.png" style="width:60px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Red Wings</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">12 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">6</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/vancouvert.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Canucks</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">13 jan</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">3</span><div class="team-logo"><img src="image/Equipe/washingnton.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Capitals</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">15 jan</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">5</span><div class="team-logo"><img src="image/Equipe/buffalo.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sabres</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">17 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">6</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">5</span><div class="team-logo"><img src="image/Equipe/ottawa.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Senators</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">20 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/minnesota.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Wild</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">22 jan</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">2</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/buffalo.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sabres</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">24 jan</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/boston.png" style="width:70px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Bruins</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">27 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/vegas.png" style="width:35px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Golden Knights</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">29 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">7</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">3</span><div class="team-logo"><img src="image/Equipe/colorado.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Avalanche</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">31 jan</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">4</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/buffalo.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sabres</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+</div>
+
+<!---------------------------------------fevrier--------------------------------------->
+<div class="month-section month-fevrier">
+  <div class="month-title">Février 2026</div>
+<hr>
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">2 fév</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/minnesota.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Wild</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">4 fév</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">5</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">1</span><div class="team-logo"><img src="image/Equipe/jet.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Jets</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card tie">
+    <div class="date-section"><div class="date-text">26 fév</div><div class="result-badge result-p">D/OT</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">3</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">4</span><div class="team-logo"><img src="image/Equipe/islanders.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Islanders</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card win">
+    <div class="date-section"><div class="date-text">28 fév</div><div class="result-badge result-v">V</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score win-score">6</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score">2</span><div class="team-logo"><img src="image/Equipe/washingnton.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Capitals</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+</div>
+
+<!---------------------------------------mars--------------------------------------->
+<div class="month-section month-mars">
+  <div class="month-title">Mars 2026</div>
+<hr>
+  <div class="match-card loss">
+    <div class="date-section"><div class="date-text">3 mar</div><div class="result-badge result-d">D</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div><span class="score">5</span></div>
+      <span class="vs-text">-</span>
+      <div class="team-side"><span class="score loss-score">7</span><div class="team-logo"><img src="image/Equipe/sanjose.png" style="width:60px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sharks</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">6 mar</div><div class="time-text">21h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/duck.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Ducks</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">7 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/king.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Kings</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">10 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/toronto.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Maple Leafs</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">11 mar</div><div class="time-text">19h30</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/ottawa.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Senators</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">14 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/sanjose.png" style="width:60px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sharks</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">17 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/tampabay.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Lightning</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">19 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/carolina.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Hurricanes</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">21 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/philadelphia.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Flyers</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">24 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/rangers.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Rangers</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">26 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/pittsburgh.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Penguins</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">28 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/kraken.png" style="width:40px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Kraken</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">31 mar</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/king.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Kings</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+</div>
+
+<!---------------------------------------avril--------------------------------------->
+<div class="month-section month-avril">
+  <div class="month-title">Avril 2026</div>
+<hr>
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">2 avr</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/jet.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Jets</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">4 avr</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/buffalo.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Sabres</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">7 avr</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/columbus.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Blue Jackets</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">9 avr</div><div class="time-text">21h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/colorado.png" style="width:60px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Avalanche</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">11 avr</div><div class="time-text">21h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/mammoth.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Mammoth</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">13 avr</div><div class="time-text">22h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/vegas.png" style="width:35px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Golden Knights</div><div class="location-badge loc-away">EXT</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">15 avr</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/toronto.png" style="width:45px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Maple Leafs</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+
+  <div class="match-card">
+    <div class="date-section"><div class="date-text">17 avr</div><div class="time-text">19h00</div></div>
+    <div class="matchup">
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/logoCanadien.png" style="width:50px;" alt=""></div></div>
+      <span class="vs-text">VS</span>
+      <div class="team-side"><div class="team-logo"><img src="image/Equipe/ottawa.png" style="width:50px;" alt=""></div></div>
+    </div>
+    <div class="info-section"><div class="opponent-name">Senators</div><div class="location-badge loc-home">DOM</div></div>
+  </div>
+</div>
+
+</div>
+
+<div style="text-align:center; padding:30px 0; color:#999; font-size:12px;">
+  © 2025-2026 • Calendrier non-officiel • Go Habs Go!
+</div>
+
         </main>
-                       <footer>
+        <footer>
             <img src="image\logoCanadien.png" width="100" style="padding-right: 1250px;" alt="logo des canadien en fin de page">
            <p style="color: darkgray;font-size: 15px;width: 1000px;" class="FooterBox">canadiens.com est le site Web officiel du Club de hockey Canadien, Inc.. Les Canadiens de Montréal et canadiens.com sont des marques de commerce des Canadiens de Montréal, NHL, la marque verbale et l'image de la coupe Stanley sont des marques de commerce déposées et les logos NHL Shield et NHL Conference sont des marques de commerce de la Ligue nationale de hockey. Tous les logos et marques de la LNH ainsi que les logos et marques des équipes de la LNH illustrés sur ce site appartiennent à la LNH et aux équipes respectives de la LNH. Toute reproduction est interdite sans le consentement 
             écrit préalable de NHL Enterprises, L.P. Copyright © 2025 Club de hockey Canadien, Inc. Tous droits réservés.</p>
-            
         </footer>
     </body>
 </html>
