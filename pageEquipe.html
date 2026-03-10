@@ -2,15 +2,15 @@
 <html lang="fr">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
         <title>Canadien</title>
         <link rel="shortcut icon" href="image\enTeteLogo.png">
         <link rel="stylesheet" href="stylepage.css">
     </head>
     <body>
         <header>
-            <img src="image\logoCanadien.png" alt="Logo des canadiens de montreal"
-             class="Logo">
-            <p class="canadientitel"><b>Les canadiens de montreal</b></p>
+           <a href="pageAccueil.html" style="text-decoration: none; color: white ;"><img src="image\logoCanadien.png" alt="Logo des canadiens de montreal" class="Logo"></a>
+            <p class="canadientitel"> <a href="pageAccueil.html" style="text-decoration: none; color: white ;"><b>Les canadiens de montreal</b></a></p>
             <a href="pageAccueil.html" class="AccueilBox" style="text-decoration: none; color: white ;">Accueil</a>
             <a href="pageCalendrier.html" class="CalendrierBox"style="text-decoration: none; color: white ;">Calendrier</a>
             <a href="pageEquipe.html" class="EquipeBox"style="text-decoration: none; color: white ;">Équipe</a>
@@ -32,15 +32,8 @@
            <div class="LogoDegrader">
     <img src="image\logoCanadien.png" alt="Logo" />
                                             </div>
-            <div class="EquipeStyle">
 
- <input type="radio" name="poste" id="all" checked>
-  <input type="radio" name="poste" id="attaquant">
-  <input type="radio" name="poste" id="defenseur">
-  <input type="radio" name="poste" id="gardien">
-  <input type="radio" name="poste" id="staff">
-
-                <div class="filters">
+    <div class="filters">
   <label for="all">Tous</label>
   <label for="attaquant">Attaquants</label>
   <label for="defenseur">Défenseurs</label>
@@ -48,424 +41,563 @@
   <label for="staff">Staff</label>
 </div>
 
+            <div class="EquipeStyle">
+ <input type="radio" name="poste" id="all" checked>
+  <input type="radio" name="poste" id="attaquant">
+  <input type="radio" name="poste" id="defenseur">
+  <input type="radio" name="poste" id="gardien">
+  <input type="radio" name="poste" id="staff">
+
+
+
+
                 <div class="Formation formation-attaquant">
                     <h1>Attaquants</h1>
                     <hr >
                     </div>
       <div class="player attaquant">
-         <!---------------------------------------17-->
+
+        <!---------------------------------------17-->
         <div class="playerBox">
-            <div class="number"><b>#17</b></div>
-            <img src="image\joueur\anderson.png" alt="Josh Anderson" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Josh Anderson</div>
-            <div class="Pos">Position : Ailier Droit</div>
-            <div class="Lance">Lancer : Droite</div>
-            <div class="Taille">Taille : 192cm</div>
-            <div class="Poids">Poids : 102kg</div>
-            <div class="naissance">Dates de Naissance : 7 mai 1994</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Burlington, ON, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">17</span>
+            <img class="card__photo" src="image/joueur/anderson.png" alt="Josh Anderson"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Josh Anderson</div>
+              <div class="card__position">Ailier Droit</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droite</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">192cm, 102kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">7 mai 1994</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Burlington, ON, CAN</span></div>
+          </div>
         </div>
-    
-         <!---------------------------------------27-->
+
+        <!---------------------------------------27-->
         <div class="playerBox">
-            <div class="number"><b>#27</b></div>
-         <img src="image\joueur\blais.png" alt="Sammy Blais" 
-            class="playerimage">
-            <hr>
-             <div class="caracteristique">
-              <div class="name">Sammy Blais</div>
-            <div class="Pos">Position : Ailier Gauche</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 188cm</div>
-            <div class="Poids">Poids : 93kg</div>
-            <div class="naissance">Dates de Naissance : 17 juin 1996</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Montmagny, QC, CAN</div>
-             </div>
+          <div class="card__photo-wrap">
+            <span class="card__number">27</span>
+            <img class="card__photo" src="image/joueur/Blais.png" alt="Sammy Blais"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Sammy Blais</div>
+              <div class="card__position">Ailier Gauche</div>
+            </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">188cm, 93kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">17 juin 1996</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Montmagny, QC, CAN</span></div>
+          </div>
         </div>
+
         <!---------------------------------------76-->
         <div class="playerBox">
-            <div class="number"><b>#76</b></div>
-         <img src="image\joueur\bolduc.png" alt="Zachary Bolduc" 
-            class="playerimage">
-            <hr>
-                        <div class="caracteristique">
-            <div class="name">Zachary Bolduc</div>
-            <div class="Pos">Position : Ailier Gauche</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 182cm</div>
-            <div class="Poids">Poids : 84kg</div>
-            <div class="naissance">Dates de Naissance : 24 février 2003</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Trois-Rivières, QC, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">76</span>
+            <img class="card__photo" src="image/joueur/bolduc.png" alt="Zachary Bolduc"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Zachary Bolduc</div>
+              <div class="card__position">Ailier Gauche</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">182cm, 84kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">24 février 2003</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Trois-Rivières, QC, CAN</span></div>
+          </div>
         </div>
+
         <!---------------------------------------13-->
         <div class="playerBox">
-            <div class="number"><b>#13</b></div>
-            <img src="image\joueur\cole.png" alt="Cole Caufield" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Cole Caufield</div>
-            <div class="Pos">Position : Ailier Droit</div>
-            <div class="Lance">Lancer : Droite</div>
-            <div class="Taille">Taille : 176cm</div>
-            <div class="Poids">Poids : 79kg</div>
-            <div class="naissance">Dates de Naissance : 2 janvier 2001</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Mosinee, WI, USA</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">13</span>
+            <img class="card__photo" src="image/joueur/cole.png" alt="Cole Caufield"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Cole Caufield</div>
+              <div class="card__position">Ailier Droit</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droite</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">176cm, 79kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">2 janvier 2001</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Mosinee, WI, USA</span></div>
+          </div>
         </div>
+
         <!---------------------------------------77-->
         <div class="playerBox">
-            <div class="number"><b>#77</b></div>
-            <img src="image\joueur\dach.png" alt="Kirby Dach" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Kirby Dach</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Droite</div>
-            <div class="Taille">Taille : 195cm</div>
-            <div class="Poids">Poids : 79kg</div>
-            <div class="naissance">Dates de Naissance : 21 janvier 2001</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Fort Saskatchewan, AB, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">77</span>
+            <img class="card__photo" src="image/joueur/dach.png" alt="Kirby Dach"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Kirby Dach</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droite</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">195cm, 79kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">21 janvier 2001</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Fort Saskatchewan, AB, CAN</span></div>
+          </div>
         </div>
+
         <!---------------------------------------24-->
         <div class="playerBox">
-            <div class="number"><b>#24</b></div>
-            <img src="image\joueur\danault.png" alt="Phillip Danault" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Phillip Danault</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 185cm</div>
-            <div class="Poids">Poids : 90kg</div>
-            <div class="naissance">Dates de Naissance : 24 février 1993</div>
-            <div class="lieuxnaissance">Lieu de Naissance : VictoriaVilla, QC, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">24</span>
+            <img class="card__photo" src="image/joueur/danault.png" alt="Phillip Danault"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Phillip Danault</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">185cm, 90kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">24 février 1993</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">VictoriaVilla, QC, CAN</span></div>
+          </div>
         </div>
+
         <!---------------------------------------93-->
         <div class="playerBox">
-            <div class="number"><b>#93</b></div>
-            <img src="image\joueur\demidov.png" alt="Ivan Demidov" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Ivan Demidov</div>
-            <div class="Pos">Position : Ailier Droit</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 185cm</div>
-            <div class="Poids">Poids : 87kg</div>
-            <div class="naissance">Dates de Naissance : 10 decembre 2005</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Sergiyev Posad, RUS</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">93</span>
+            <img class="card__photo" src="image/joueur/demidov.png" alt="Ivan Demidov"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Ivan Demidov</div>
+              <div class="card__position">Ailier Droit</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">185cm, 87kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">10 décembre 2005</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Sergiyev Posad, RUS</span></div>
+          </div>
         </div>
+
         <!---------------------------------------71-->
         <div class="playerBox">
-            <div class="number"><b>#71</b></div>
-            <img src="image\joueur\evans.png" alt="Jake Evans" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Jake Evans</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 182cm</div>
-            <div class="Poids">Poids : 86kg</div>
-            <div class="naissance">Dates de Naissance : 02 juin 1996</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Toronto, ON, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">71</span>
+            <img class="card__photo" src="image/joueur/evans.png" alt="Jake Evans"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Jake Evans</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">182cm, 86kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">02 juin 1996</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Toronto, ON, CAN</span></div>
+          </div>
         </div>
-                <!---------------------------------------11-->
+
+        <!---------------------------------------11-->
         <div class="playerBox">
-            <div class="number"><b>#11 A</b></div>
-            <img src="image\joueur\gallagher.png" alt="Brendan Gallagher" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Brendan Gallagher</div>
-            <div class="Pos">Position : Ailier Droit</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 179cm</div>
-            <div class="Poids">Poids : 83kg</div>
-            <div class="naissance">Dates de Naissance : 06 mai 1992</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Edmonton, AB, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">11</span>
+            <img class="card__photo" src="image/joueur/gallagher.png" alt="Brendan Gallagher"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Brendan Gallagher #A</div>
+              <div class="card__position">Ailier Droit </div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">179cm, 83kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">06 mai 1992</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Edmonton, AB, CAN</span></div>
+          </div>
         </div>
-                <!---------------------------------------91-->
+
+        <!---------------------------------------91-->
         <div class="playerBox">
-            <div class="number"><b>#91</b></div>
-            <img src="image\joueur\kapa.png" alt="Oliver Kapanen" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Oliver Kapanen</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 188cm</div>
-            <div class="Poids">Poids : 87kg</div>
-            <div class="naissance">Dates de Naissance : 28 juillet 2003</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Timra, SWE</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">91</span>
+            <img class="card__photo" src="image/joueur/kapa.png" alt="Oliver Kapanen"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Oliver Kapanen</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">188cm, 87kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">28 juillet 2003</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Timrå, SWE</span></div>
+          </div>
         </div>
-                <!---------------------------------------92-->
+
+        <!---------------------------------------92-->
         <div class="playerBox">
-            <div class="number"><b>#92</b></div>
-            <img src="image\joueur\laine.png" alt="Patrik Laine" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Patrik Laine</div>
-            <div class="Pos">Position : Ailier Droit</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 195cm</div>
-            <div class="Poids">Poids : 94kg</div>
-            <div class="naissance">Dates de Naissance : 19 avril 1998</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Tampere, FIN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">92</span>
+            <img class="card__photo" src="image/joueur/laine.png" alt="Patrik Laine"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Patrik Laine</div>
+              <div class="card__position">Ailier Droit</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">195cm, 94kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">19 avril 1998</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Tampere, FIN</span></div>
+          </div>
         </div>
-                <!---------------------------------------15-->
+
+        <!---------------------------------------15-->
         <div class="playerBox">
-            <div class="number"><b>#15</b></div>
-            <img src="image\joueur\newhook.png" alt="Alex Newhook" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Alex Newhook</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 182cm</div>
-            <div class="Poids">Poids : 90kg</div>
-            <div class="naissance">Dates de Naissance : 28 janvier 2001</div>
-            <div class="lieuxnaissance">Lieu de Naissance : St.John's, NL, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">15</span>
+            <img class="card__photo" src="image/joueur/newhook.png" alt="Alex Newhook"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Alex Newhook</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">182cm, 90kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">28 janvier 2001</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">St.John's, NL, CAN</span></div>
+          </div>
         </div>
-                <!---------------------------------------20-->
+
+        <!---------------------------------------20-->
         <div class="playerBox">
-            <div class="number"><b>#20</b></div>
-            <img src="image\joueur\slaf.png" alt="Juraj Slafkovský" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Juraj Slafkovský</div>
-            <div class="Pos">Position : Ailier Gauche</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 192cm</div>
-            <div class="Poids">Poids : 102kg</div>
-            <div class="naissance">Dates de Naissance : 30 mars 2004</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Kosice, SVK</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">20</span>
+            <img class="card__photo" src="image/joueur/slaf.png" alt="Juraj Slafkovský"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Juraj Slafkovský</div>
+              <div class="card__position">Ailier Gauche</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">192cm, 102kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">30 mars 2004</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Kosice, SVK</span></div>
+          </div>
         </div>
-                <!---------------------------------------14-->
+
+        <!---------------------------------------14-->
         <div class="playerBox">
-            <div class="number"><b>#14 C</b></div>
-            <img src="image\joueur\suzuki.png" alt="Nick Suzuki" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Nick Suzuki</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 182cm</div>
-            <div class="Poids">Poids : 93kg</div>
-            <div class="naissance">Dates de Naissance : 10 août 1999</div>
-            <div class="lieuxnaissance">Lieu de Naissance : London, ON, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">14</span>
+            <img class="card__photo" src="image/joueur/suzuki.png" alt="Nick Suzuki"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Nick Suzuki #C</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">182cm, 93kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">10 août 1999</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">London, ON, CAN</span></div>
+          </div>
         </div>
-                        <!---------------------------------------85-->
+
+        <!---------------------------------------85-->
         <div class="playerBox">
-            <div class="number"><b>#85</b></div>
-            <img src="image\joueur\texier.png" alt="Alexandre Texier" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Alexandre Texier</div>
-            <div class="Pos">Position : Ailier Gauche</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 185cm</div>
-            <div class="Poids">Poids : 88kg</div>
-            <div class="naissance">Dates de Naissance : 13 septembre 1999</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Saint-Martin-d'Hères, FRA</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">85</span>
+            <img class="card__photo" src="image/joueur/texier.png" alt="Alexandre Texier"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Alexandre Texier</div>
+              <div class="card__position">Ailier Gauche</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">185cm, 88kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">13 septembre 1999</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Saint-Martin-d'Hères, FRA</span></div>
+          </div>
         </div>
-                                <!---------------------------------------90-->
+
+        <!---------------------------------------90-->
         <div class="playerBox">
-            <div class="number"><b>#90</b></div>
-            <img src="image\joueur\veleno.png" alt="Joe Veleno" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Joe Veleno</div>
-            <div class="Pos">Position : Centre</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 185cm</div>
-            <div class="Poids">Poids : 91kg</div>
-            <div class="naissance">Dates de Naissance : 13 janvier 2000</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Montréal, QC, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">90</span>
+            <img class="card__photo" src="image/joueur/veleno.png" alt="Joe Veleno"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Joe Veleno</div>
+              <div class="card__position">Centre</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">185cm, 91kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">13 janvier 2000</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Montréal, QC, CAN</span></div>
+          </div>
         </div>
+
       </div>
+
              <div class="Formation formation-defenseur">
                     <h1>Défenseurs</h1>
                     <hr>
                     </div>
       <div class="player defenseur">
-                        <!---------------------------------------45-->
+
+        <!---------------------------------------45-->
         <div class="playerBox">
-            <div class="number"><b>#45</b></div>
-            <img src="image\joueur\carrier.png" alt="Alexandre Carrier" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Alexandre Carrier</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 182cm</div>
-            <div class="Poids">Poids : 78kg</div>
-            <div class="naissance">Dates de Naissance : 8 octobre 1996</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Québec, QC, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">45</span>
+            <img class="card__photo" src="image/joueur/carrier.png" alt="Alexandre Carrier"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Alexandre Carrier</div>
+              <div class="card__position">Défenseur</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">182cm, 78kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">8 octobre 1996</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Québec, QC, CAN</span></div>
+          </div>
         </div>
-                                <!---------------------------------------53-->
+
+        <!---------------------------------------53-->
         <div class="playerBox">
-            <div class="number"><b>#53</b></div>
-            <img src="image\joueur\dobson.png" alt="Noah Dobson" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Noah Dobson</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 195cm</div>
-            <div class="Poids">Poids : 90kg</div>
-            <div class="naissance">Dates de Naissance : 7 janvier 2000</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Summerside, PE, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">53</span>
+            <img class="card__photo" src="image/joueur/dobson.png" alt="Noah Dobson"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Noah Dobson</div>
+              <div class="card__position">Défenseur</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">195cm, 90kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">7 janvier 2000</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Summerside, PE, CAN</span></div>
+          </div>
         </div>
-                                        <!---------------------------------------21-->
+
+        <!---------------------------------------21-->
         <div class="playerBox">
-            <div class="number"><b>#21</b></div>
-            <img src="image\joueur\guhle.png" alt="Kaiden Guhle" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Kaiden Guhle</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Droit</div>
-            <div class="Taille">Taille : 192cm</div>
-            <div class="Poids">Poids : 91kg</div>
-            <div class="naissance">Dates de Naissance : 18 janvier 2002</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Edmonton, AB, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">21</span>
+            <img class="card__photo" src="image/joueur/guhle.png" alt="Kaiden Guhle"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Kaiden Guhle</div>
+              <div class="card__position">Défenseur</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Droit</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">192cm, 91kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">18 janvier 2002</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Edmonton, AB, CAN</span></div>
+          </div>
         </div>
-                                                <!---------------------------------------48-->
+
+        <!---------------------------------------48-->
         <div class="playerBox">
-            <div class="number"><b>#48</b></div>
-            <img src="image\joueur\huston.png" alt="Lane Hutson" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Lane Hutson</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 179cm</div>
-            <div class="Poids">Poids : 73kg</div>
-            <div class="naissance">Dates de Naissance : 14 février 2004</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Holland, MI, USA</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">48</span>
+            <img class="card__photo" src="image/joueur/huston.png" alt="Lane Hutson"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Lane Hutson</div>
+              <div class="card__position">Défenseur</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">179cm, 73kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">14 février 2004</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Holland, MI, USA</span></div>
+          </div>
         </div>
-                                                        <!---------------------------------------8-->
+
+        <!---------------------------------------8-->
         <div class="playerBox">
-            <div class="number"><b>#8 A</b></div>
-            <img src="image\joueur\matheson.png" alt="Mike Matheson" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Mike Matheson</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 188cm</div>
-            <div class="Poids">Poids : 88kg</div>
-            <div class="naissance">Dates de Naissance : 27 février 1994</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Point-Claire, QC, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">8</span>
+            <img class="card__photo" src="image/joueur/matheson.png" alt="Mike Matheson"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Mike Matheson #A</div>
+              <div class="card__position">Défenseur </div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">188cm, 88kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">27 février 1994</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Point-Claire, QC, CAN</span></div>
+          </div>
         </div>
-                                                              <!---------------------------------------47-->
+
+        <!---------------------------------------47-->
         <div class="playerBox">
-            <div class="number"><b>#47</b></div>
-            <img src="image\joueur\struble.png" alt="Jayden Struble" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Jayden Struble</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 182cm</div>
-            <div class="Poids">Poids : 93kg</div>
-            <div class="naissance">Dates de Naissance : 8 septembre 2001</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Cumberland, RI, USA</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">47</span>
+            <img class="card__photo" src="image/joueur/struble.png" alt="Jayden Struble"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Jayden Struble</div>
+              <div class="card__position">Défenseur</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">182cm, 93kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">8 septembre 2001</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Cumberland, RI, USA</span></div>
+          </div>
         </div>
-                                                                      <!---------------------------------------72-->
+
+        <!---------------------------------------72-->
         <div class="playerBox">
-            <div class="number"><b>#72</b></div>
-            <img src="image\joueur\xhekaj.png" alt="Arber Xhekaj" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Arber Xhekaj</div>
-            <div class="Pos">Position : Défenseur</div>
-            <div class="Lance">Lancer : Gauche</div>
-            <div class="Taille">Taille : 195cm</div>
-            <div class="Poids">Poids : 108kg</div>
-            <div class="naissance">Dates de Naissance : 30 janvier 2001</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Hamilton, ON, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">72</span>
+            <img class="card__photo" src="image/joueur/xhekaj.png" alt="Arber Xhekaj"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Arber Xhekaj</div>
+              <div class="card__position">Défenseur</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Lancer</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">195cm, 108kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">30 janvier 2001</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Hamilton, ON, CAN</span></div>
+          </div>
         </div>
+
       </div>
+
                               <div class="Formation formation-gardien">
                     <h1>Gardiens</h1>
                     <hr>
                     </div>
       <div class="player gardien">
-                                                              <!---------------------------------------35-->
+
+        <!---------------------------------------35-->
         <div class="playerBox">
-            <div class="number"><b>#35</b></div>
-            <img src="image\joueur\montembeault.png" alt="Samuel Montembeault" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Samuel Montembeault</div>
-            <div class="Pos">Position : Gardien</div>
-            <div class="Lance">Attrape : Gauche</div>
-            <div class="Taille">Taille : 192cm</div>
-            <div class="Poids">Poids : 98kg</div>
-            <div class="naissance">Dates de Naissance : 30 octobre 1996</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Becancour, QC, CAN</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">35</span>
+            <img class="card__photo" src="image/joueur/montembeault.png" alt="Samuel Montembeault"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Samuel Montembeault</div>
+              <div class="card__position">Gardien</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Attrape</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">192cm, 98kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">30 octobre 1996</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Becancour, QC, CAN</span></div>
+          </div>
         </div>
-                                                                      <!---------------------------------------75-->
+
+        <!---------------------------------------75-->
         <div class="playerBox">
-            <div class="number"><b>#75</b></div>
-            <img src="image\joueur\dobes.png" alt="Jakub Dobes" 
-            class="playerimage">
-            <hr>
-            <div class="caracteristique">
-            <div class="name">Jakub Dobes</div>
-            <div class="Pos">Position : Gardien</div>
-            <div class="Lance">Attrape : Gauche</div>
-            <div class="Taille">Taille : 195cm</div>
-            <div class="Poids">Poids : 97kg</div>
-            <div class="naissance">Dates de Naissance : 27 mai 2001</div>
-            <div class="lieuxnaissance">Lieu de Naissance : Ostrava, CZE</div>
+          <div class="card__photo-wrap">
+            <span class="card__number">75</span>
+            <img class="card__photo" src="image/joueur/dobes.png" alt="Jakub Dobes"/>
+          </div>
+          <div class="card__info">
+            <div>
+              <div class="card__name">Jakub Dobes</div>
+              <div class="card__position">Gardien</div>
             </div>
+            <img class="card__logo" src="image/logoCanadien.png" alt="Logo"/>
+          </div>
+          <div class="card__stats">
+            <div class="stat-row"><span class="stat-label">Attrape</span><span class="stat-value">Gauche</span></div>
+            <div class="stat-row"><span class="stat-label">Taille / Poids</span><span class="stat-value">195cm, 97kg</span></div>
+            <div class="stat-row"><span class="stat-label">Naissance</span><span class="stat-value">27 mai 2001</span></div>
+            <div class="stat-row"><span class="stat-label">Lieu</span><span class="stat-value">Ostrava, CZE</span></div>
+          </div>
         </div>
+
       </div>
 
        <div class="Formation formation-staff" >
@@ -589,7 +721,7 @@
         
             <div class="staffname">
             <h1>Réjean Houle</h1>
-            <h2>Président, Anciens Canadiens/h2>
+            <h2>Président, Anciens Canadiens</h2>
             </div>
         </div>
 
@@ -623,4 +755,3 @@
         </footer>
     </body>
 </html>
-        

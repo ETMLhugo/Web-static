@@ -62,39 +62,28 @@ main {
 
 .playerBox {
     width: 100% !important;
-    height: 380px !important;
-    box-sizing: border-box !important; 
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
 }
 
-.playerimage {
-    margin-left: 0 !important;
-
-    
-}
-
-.playerBox hr{
-  width: calc(100% - 70px) !important;
-  left: 15px !important;
-  right: 15px !important;
-}
-.playerBox:hover{
-  
+.playerBox:hover {
   transform: none !important;
 }
-.number {
-    margin-right: 0 !important;
-   left: 10px !important;
- top: 40px !important;
-    font-size: 20px !important;
 
-  }
-
-.name {
-    font-size: 16px !important;
+.card__photo-wrap {
+  height: 200px !important;
 }
 
-.Pos, .Lance, .Taille, .Poids, .naissance, .lieuxnaissance {
-    font-size: 12px !important;
+.card__number {
+  font-size: 100px !important;
+}
+
+.card__name {
+  font-size: 14px !important;
+}
+
+.card__position, .stat-label, .stat-value {
+  font-size: 10px !important;
 }
 
 .staffBox {
@@ -489,13 +478,25 @@ main {
     height: auto !important;
   }
 
-
+  .form-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .form-group--full {
+    grid-column: 1 !important;
+  }
+  .form-container {
+    padding: 24px 16px !important;
+  }
+  .form-section {
+    padding: 0 16px 60px !important;
+  }
 }
 
 /*------------------Fin du responsive-----------------------------------*/
 
 header{
-    background-color: rgb(175,30,45);
+    background: #0f0c0c;
+background: linear-gradient(168deg,rgba(15, 12, 12, 1) 0%, rgba(255, 0, 0, 1) 100%);
     width: 100%;
     background-size: cover;
     margin: 0;
@@ -511,13 +512,20 @@ header{
    
 
 }
+header a{
+    text-decoration: none;
+}
 .Logo{
   width:70px;
    height:50px;
  margin-left: 40px;
 }
 .canadientitel{
-  font-size: 30px;position: relative; ;color: white;font-weight:900 ;
+  font-size: 30px;
+  position: relative;
+  color: white;
+  font-weight: 900;
+  font-style: italic;
 }
 main{
   padding-top: 90px;
@@ -539,98 +547,160 @@ body{
 
 .AccueilBox{
  display: flex;
-    width: 90px;
-    height: 30px;
-    border-radius: 5px;
-    align-items: center;
-  justify-content: center;
-  background-color: rgba(57, 72, 207, 0);
-  border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
-    transition: transform 0.3s ;
+  color: #fff;
+  line-height: 2;
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
-.AccueilBox:hover{
-  transform: scale(1.2);
+
+.AccueilBox::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+.AccueilBox:hover::before {
+  width: 100%;
+  left: 0;
 }
 .CalendrierBox{
  display: flex;
-    width: 90px;
-    height: 30px;
-    border-radius: 5px;
-    align-items: center;
-  justify-content: center;
-  background-color: rgba(57, 72, 207, 0);
-  border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
-    transition: transform 0.3s ;
-}
-.CalendrierBox:hover{
-  transform: scale(1.2);
+  color: #fff;
+  line-height: 2;
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
+.CalendrierBox::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+.CalendrierBox:hover::before {
+  width: 100%;
+  left: 0;
+}
 .EquipeBox{
  display: flex;
-    width: 90px;
-    height: 30px;
-    border-radius: 5px;
-    align-items: center;
-  justify-content: center;
-  background-color: rgba(57, 72, 207, 0);
-  border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
-    transition: transform 0.3s ;
-}
-.EquipeBox:hover{
-  transform: scale(1.2);
+  color: #fff;
+  line-height: 2;
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
+.EquipeBox::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+.EquipeBox:hover::before {
+  width: 100%;
+  left: 0;
+}
 .TitreBox{
  display: flex;
-    width: 90px;
-    height: 30px;
-    border-radius: 5px;
-    align-items: center;
-  justify-content: center;
-  background-color: rgba(57, 72, 207, 0);
-  border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
-    transition: transform 0.3s ;
-}
-.TitreBox:hover{
-  transform: scale(1.2);
+  color: #fff;
+  line-height: 2;
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
+.TitreBox::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+.TitreBox:hover::before {
+  width: 100%;
+  left: 0;
+}
 .HistoireBox{
  display: flex;
-    width: 90px;
-    height: 30px;
-    border-radius: 5px;
-    align-items: center;
-  justify-content: center;
-  background-color: rgba(57, 72, 207, 0);
-  border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
-    transition: transform 0.3s ;
-}
-.HistoireBox:hover{
-  transform: scale(1.2);
+  color: #fff;
+  line-height: 2;
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
+.HistoireBox::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+.HistoireBox:hover::before {
+  width: 100%;
+  left: 0;
+}
 .ContactBox{
  display: flex;
-    width: 90px;
-    height: 30px;
-    border-radius: 5px;
-    align-items: center;
-  justify-content: center;
-  background-color: rgba(57, 72, 207, 0);
-  border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
-    transition: transform 0.3s ;
-    margin-right: 170px;
+  color: #fff;
+  line-height: 2;
+  position: relative;
+  margin-right: 170px;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
-.ContactBox:hover{
-  transform: scale(1.2);
+
+.ContactBox::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+.ContactBox:hover::before {
+  width: 100%;
+  left: 0;
 }
 .NewsBox{
   display: flex;
@@ -1306,28 +1376,34 @@ font-family: Publico, Times, serif;
 .youppi{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .EquipeStyle > input[type="radio"] {
   display: none;
 }
 
 .filters {
-  margin-bottom: 10px;
-  margin-top: 30px;
-  justify-self: end;
-  margin-right: 10%;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
+  background: #1a1a2e;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .filters label {
-  padding: 8px 18px;
-  background: rgb(175,30,45);
-  color: white;
-   border: 1px rgb(255, 255, 255) solid;
-   box-shadow: 10px 6px 8px black;
   cursor: pointer;
-  margin-right: 10px;
-  border-radius: 5px;
-  transition: 0.3s;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 2px solid #AF1E2D;
+  color: white;
+    font-weight: bold;
+  font-size: 14px;
+  transition: background 0.2s;
+  user-select: none;
 }
 
 .filters label:hover {
@@ -1638,7 +1714,6 @@ font-size: 14px;
   border-radius: 20px;
   border: 2px solid #AF1E2D;
   color: white;
-  
   font-weight: bold;
   font-size: 14px;
   transition: background 0.2s;
@@ -1690,129 +1765,369 @@ body:has(#mars:checked) .month-section.month-mars { display: block; }
 body:has(#avril:checked) .month-section { display: none; }
 body:has(#avril:checked) .month-section.month-avril { display: block; }
 
-/*---------------------------------------------Debut Equipe-----------------------------------------------------------*/
-.playerBox{
-  display: flex;
-  height: 400px;
-  width: 300px;
-  justify-content: center;
-  border-radius: 30px;
-  border: 1px solid black;
-  background: #ffffff;
-  box-shadow: 15px 15px 30px #000000,
-             -15px -15px 30px #5a5a5a;
-             
-    text-align: center;
-    transition: transform 0.3s ;
-  z-index: 2;
+.contact-hero {
   position: relative;
+  height: 300px;
+  background: linear-gradient(135deg, #AF1E2D 0%, #192168 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
-
-.playerBox:hover{
-  
-  transform: scale(1.1);
-}
-
-.playerBox hr{
-  margin-top: 130px;
-  height: 0;
-  width: calc(100% - 40px);
-  left: 20px;
-  right: 20px;
-  border: 1px black solid;
-  z-index: 3;
+.contact-hero::before {
+  content: '';
   position: absolute;
-}
-.playerimage{
-  margin-left: 100px;
-  margin-top: 10px;
-  height: 100px;
-  width: 100px;
-  border: 2px #121212 solid ;
-  border-radius: 100px;
-  background: linear-gradient(to bottom, rgb(175,30,45),
-    rgba(255, 255, 255, 0.671));
-    
-    z-index: 4;
-    position: absolute;
-    gap: 10px;
-    
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-.number{
-  margin-right: 160px;
-  margin-top: 60px;
-  font-size: 40px;
-  font-weight: 999;
+.contact-hero__overlay {
   position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
 }
 
-.caracteristique{
-  margin-top: 140px;
+.contact-hero__content {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  padding: 0 20px;
+}
+
+.contact-hero__content h1 {
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.contact-hero__content p {
+  font-size: 18px;
+  opacity: 0.88;
+  font-weight: 600;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  margin-top: -60px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 10;
+}
+
+.info-card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+  padding: 36px 30px;
+  text-align: center;
+  flex: 1;
+  min-width: 220px;
+  max-width: 280px;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+}
+
+.info-card__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #AF1E2D, #192168);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.info-card__icon i {
+  font-size: 24px;
+  color: white;
+}
+
+.info-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #192168;
+  margin-bottom: 8px;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.form-section {
+  padding: 0 40px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+  padding: 50px;
+  width: 100%;
+  max-width: 860px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #192168;
+  margin-bottom: 10px;
+}
+
+.form-header p {
+  color: #6c757d;
+  font-size: 15px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.form-group {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
+  gap: 8px;
 }
 
-.name{
-    display: flex;
-  font-size: 20px;
-  font-weight: 999;
-  position: relative;
-  border-bottom: 3px black solid;
-  
+.form-group--full {
+  grid-column: 1 / -1;
 }
-.Pos{
+
+.form-group--submit {
   display: flex;
-  font-size: 15px;
-  font-weight: 999;
-  position: relative;
   justify-content: center;
-  text-align: center;
 }
-.Lance{
-   display: flex;
-  font-size: 15px;
-  font-weight: 999;
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #192168;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.required-star {
+  color: #AF1E2D;
+  font-weight: 900;
+}
+
+.input-wrap {
   position: relative;
-  justify-content: center;
-  text-align: center;
-}
-.Taille{
   display: flex;
-  font-size: 15px;
-  font-weight: 999;
-   position: relative;
-  justify-content: center;
-  text-align: center;
+  align-items: center;
 }
-.Poids{
+
+.input-wrap i {
+  position: absolute;
+  left: 16px;
+  color: #6c757d;
+  font-size: 15px;
+  pointer-events: none;
+  transition: color 0.2s, opacity 0.2s;
+}
+
+.input-wrap input,
+.input-wrap textarea {
+  width: 100%;
+  padding: 14px 16px 14px 44px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 15px;
+  color: #222;
+  background: #fafbff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  resize: none;
+}
+
+.input-wrap--textarea i {
+  top: 16px;
+  align-self: flex-start;
+}
+
+.input-wrap input:focus,
+.input-wrap textarea:focus {
+  border-color: #AF1E2D;
+  box-shadow: 0 0 0 4px rgba(175,30,45,0.10);
+  background: #fff;
+}
+
+.input-wrap:focus-within i {
+  opacity: 0;
+}
+
+.input-wrap input:focus::placeholder,
+.input-wrap textarea:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.btn-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #AF1E2D 0%, #192168 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 48px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 6px 20px rgba(175,30,45,0.35);
+  letter-spacing: 0.3px;
+}
+
+.btn-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(175,30,45,0.40);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
+/*---------------------------------------------Debut Equipe-----------------------------------------------------------*/
+.playerBox {
   display: flex;
-  font-size: 15px;
-  font-weight: 999;
+  flex-direction: column;
+  width: 260px;
+  border-radius: 22px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.28);
+  transition: transform 0.3s;
   position: relative;
-  justify-content: center;
-  text-align: center;
+  z-index: 2;
 }
-.naissance{
+
+.playerBox:hover {
+  transform: scale(1.05);
+}
+
+.card__photo-wrap {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  background: linear-gradient(160deg, #AF1E2D 0%, #c0392b 40%, #8B0000 100%);
+}
+
+.card__number {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 1;
+  color: rgba(255,255,255,0.15);
+  letter-spacing: -5px;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card__photo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  z-index: 2;
+}
+
+
+.card__info {
+  padding: 14px 16px 12px;
   display: flex;
-  font-size: 15px;
-  font-weight: 999;
-    position: relative;
-  justify-content: center;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
 }
-.lieuxnaissance{
-   display: flex;
-  font-size: 15px;
-  font-weight: 999;
-  position: relative;
-  justify-content: center;
-  text-align: center;
+
+.card__name {
+  font-weight: 800;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.2;
+}
+
+.card__position {
+  font-size: 12px;
+  color: #888;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.card__logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+.card__stats {
+  padding: 2px 0 4px;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.18s;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-row:hover {
+  background: #fafafa;
+}
+
+.stat-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.stat-value {
+  font-weight: 700;
+  font-size: 11px;
+  color: #111;
 }
 /*---------------------------------------------Fin Equipe-----------------------------------------------------------*/
 /*------------------------------------debut staff -----------------------------------------*/
@@ -1849,3 +2164,5 @@ margin: 0;
   font-size: 13px;
   margin: 0;
 }
+
+

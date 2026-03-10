@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=5.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
         <title>Canadien</title>
         <link rel="shortcut icon" href="image\enTeteLogo.png">
         <link rel="stylesheet" href="stylepage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     </head>
-    <body>
+    <body class="contact-page">
         <header>
-            <img src="image\logoCanadien.png" alt="Logo des canadiens de montreal"
-             class="Logo">
-            <p class="canadientitel"><b>Les canadiens de montreal</b></p>
+            <a href="pageAccueil.html" style="text-decoration: none; color: white ;"><img src="image\logoCanadien.png" alt="Logo des canadiens de montreal" class="Logo"></a>
+            <p class="canadientitel"> <a href="pageAccueil.html" style="text-decoration: none; color: white ;"><b>Les canadiens de montreal</b></a></p>
             <a href="pageAccueil.html" class="AccueilBox" style="text-decoration: none; color: white ;">Accueil</a>
             <a href="pageCalendrier.html" class="CalendrierBox"style="text-decoration: none; color: white ;">Calendrier</a>
             <a href="pageEquipe.html" class="EquipeBox"style="text-decoration: none; color: white ;">Équipe</a>
@@ -20,59 +21,89 @@
         </header>
         
         <main>
-     <h1 style="text-align: center;
-    font-weight: 999;font-size: 50px;">Contactez-Nous</h1>
-    <hr style="margin-top: -20px;
-                width: 500px;
-                 padding-left: 100px;
-                    border: 2px solid rgb(0, 0, 0);
-                     margin-bottom: 50px;">
-                     <form class="form">
-<div class="contactus">
-    <div class="contact">
-     <div class="group">
-  <input required="" type="text" class="input">
-  <span class="highlight"></span>
-  <span class="bar"></span>
-  <label>Nom :</label>
-</div>
 
-<div class="group">
-  <input required="" type="text" class="input">
-  <span class="highlight"></span>
-  <span class="bar"></span>
-  <label>Prénom :</label>
-</div>
-<div class="group">
-  <input required="" type="text" class="input">
-  <span class="highlight"></span>
-  <span class="bar"></span>
-  <label>Email :</label>
-</div>
-</div>
-<hr>
+          <div class="contact-hero">
+            <div class="contact-hero__overlay"></div>
+            <div class="contact-hero__content">
+              <h1>Contactez-nous</h1>
+              <p>On est là pour vous. Envoyez-nous un message, on vous répond rapidement.</p>
+            </div>
+          </div>
 
-<div class="form-container">
-      
-        <div class="form-group">
-          <label for="title">Titre :</label>
-          <input type="text" id="title" name="title" required="">
-        </div>
-        <div class="form-group">
-          <label for="textarea">En quoi nous pouvons vous aidez :</label>
-          <textarea name="textarea"  id="textarea" rows="10" cols="50" required="">        
-              </textarea>
-        </div>
-        <button class="form-submit-btn" type="submit">Envoyer</button>
-      </form>
-    </div>
-</div>
-<div class="youppi">
-        <img src="image/youppi.png" alt="">
-</div>
+          <div class="info-cards">
+            <div class="info-card">
+              <div class="info-card__icon"><i class="fas fa-map-marker-alt"></i></div>
+              <h3>Adresse</h3>
+              <p>1909 Avenue des Canadiens-de-Montréal<br>Montréal, QC H3B 5E8</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card__icon"><i class="fas fa-phone"></i></div>
+              <h3>Téléphone</h3>
+              <p>+1 (514) 932-2582</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card__icon"><i class="fas fa-envelope"></i></div>
+              <h3>Courriel</h3>
+               <p>contact@canadiens.com</p>
+            </div>
+          </div>
+
+          <section class="form-section">
+            <div class="form-container">
+              <div class="form-header">
+                <h2>Envoyez-nous un message</h2>
+                <p>Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+              </div>
+              <form class="form-grid">
+                <div class="form-group">
+                  <label for="nom">Nom complet <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="nom" placeholder="     Jean Québec" required/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Adresse courriel <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="      jean@exemple.com" required/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="telephone">Téléphone <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" id="telephone" placeholder="      +1 (514) 000-0000" required/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="sujet">Sujet <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fas fa-tag"></i>
+                    <input type="text" id="sujet" placeholder="     Votre sujet..." required/>
+                  </div>
+                </div>
+                <div class="form-group form-group--full">
+                  <label for="message">Message <span class="required-star">*</span></label>
+                  <div class="input-wrap input-wrap--textarea">
+                    <i class="fas fa-comment-dots"></i>
+                    <textarea id="message" rows="6" placeholder="     Écrivez votre message ici..." required></textarea>
+                  </div>
+                </div>
+                <div class="form-group form-group--full form-group--submit">
+                  <button type="submit" class="btn-submit">
+                    <i class="fas fa-paper-plane"></i>
+                    Envoyer le message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </section>
+
         </main>
-                       <footer>
-            <img src="image\logoCanadien.png" width="100" style="padding-right: 1250px;" alt="logo des canadien en fin de page">
+
+        <footer>
+            <img src="image\logoCanadien.png" width="100" alt="logo des canadien en fin de page">
            <p style="color: darkgray;font-size: 15px;width: 1000px;" class="FooterBox">canadiens.com est le site Web officiel du Club de hockey Canadien, Inc.. Les Canadiens de Montréal et canadiens.com sont des marques de commerce des Canadiens de Montréal, NHL, la marque verbale et l'image de la coupe Stanley sont des marques de commerce déposées et les logos NHL Shield et NHL Conference sont des marques de commerce de la Ligue nationale de hockey. Tous les logos et marques de la LNH ainsi que les logos et marques des équipes de la LNH illustrés sur ce site appartiennent à la LNH et aux équipes respectives de la LNH. Toute reproduction est interdite sans le consentement 
             écrit préalable de NHL Enterprises, L.P. Copyright © 2025 Club de hockey Canadien, Inc. Tous droits réservés.</p>
             
