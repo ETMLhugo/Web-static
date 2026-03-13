@@ -185,7 +185,7 @@ main {
   background: white;
   padding-top: -100px !important;
   z-index: 3;
-  top: -100px;
+
 }
 
 
@@ -436,7 +436,7 @@ main {
     margin-left: 15px !important;
   }
 
-  /* ---- PAGE HISTOIRE ---- */
+
   .titelhr {
     margin-left: 15px !important;
     margin-right: 15px !important;
@@ -488,6 +488,84 @@ main {
   }
   .form-section {
     padding: 0 16px 60px !important;
+  }
+.contact-hero__content{
+  margin-bottom: 40px;
+}
+
+  .canadientitel {
+    margin-top: -8px !important;
+  }
+
+  .match-card {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    padding: 10px 8px !important;
+    gap: 4px !important;
+  }
+
+  .month-title {
+    margin-left: 2% !important;
+  }
+
+  .matchup {
+    gap: 6px !important;
+  }
+
+  .team-side {
+    gap: 6px !important;
+  }
+
+  .date-section {
+    width: 48px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .date-text {
+    font-size: 10px !important;
+  }
+
+  .result-badge {
+    font-size: 9px !important;
+    padding: 2px 5px !important;
+  }
+
+  .score {
+    font-size: 15px !important;
+  }
+
+  .team-logo img {
+    width: 28px !important;
+    height: auto !important;
+  }
+
+  .info-section {
+    width: 52px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .opponent-name {
+    font-size: 9px !important;
+  }
+
+  .location-badge {
+    font-size: 8px !important;
+    padding: 2px 5px !important;
+  }
+
+  .header {
+    padding: 16px 10px !important;
+    text-align: center !important;
+  }
+
+  .header h1 {
+    font-size: 18px !important;
+  }
+
+  .legend {
+    gap: 10px !important;
+    padding: 0 8px !important;
+    font-size: 11px !important;
   }
 
 }
